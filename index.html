@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+        <script type="text/javascript">
+          function gen_mail_to_link(lhs,rhs,subject)
+          {
+          document.write("<A HREF=\"mailto");
+          document.write(":" + lhs + "@");
+          document.write(rhs + "?subject=" + subject + "\">" + lhs + "@" + rhs + "<\/A>");
+          }
+        </script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#" style="color:white">Michel Steuwer</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <h2>Michel Steuwer</h2>
+          <div>
+            <!--div style="float:left">
+            <div style="float:left; margin-left: 10px;"-->
+            <div class="col-md-2">
+              <img src="http://gravatar.com/avatar/dd46e54063eaf929ca84819abf97b418?size=160px"/>
+            </div>
+            <div class="col-md-10">
+              <p>
+                I'm a research associate at the <a href="http://www.ed.ac.uk">University of Edinburgh</a> in the <a href="http://www.icsa.informatics.ed.ac.uk/compilers/">CArD</a> group.
+                I am a member of the <a href="http://wcms.inf.ed.ac.uk/icsa/">Institute for Computing Systems Architecture (ICSA)</a> which is part of the <a href="http://www.ed.ac.uk/schools-departments/informatics/">School of Informatics</a>.
+              </p>
+              <p>
+                I was previously at the <a href="http://www.uni-muenster.de/PVS/mitarbeiter/steuwer.html">University of Münster</a>.
+              </p>
+              <p>
+                My research interests include <i>Structured Parallel Programming</i>, <i>Heterogeneous and GPU Computing</i>, and <i>novel Compilation Techniques</i>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12">
+          <a class="anchor" id="contact"></a>
+          <h2>Contact</h2>
+          <p>
+            Michel Steuwer<br/>
+            University of Edinburgh<br/>
+            Informatics Forum<br/>
+            10 Chrichton Street<br/>
+            Edinburgh EH8 9AB<br/>
+            Scotland, United Kingdom
+          </p>
+          <p>
+            <b>email:</b> <script type="text/javascript">gen_mail_to_link('michel.steuwer','ed.ac.uk','Email:')</script>
+          </p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2014. All Rights Reserved.</p>
+      </footer>
+    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
