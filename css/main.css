@@ -4,7 +4,16 @@
    Author's custom styles
    ========================================================================== */
 
+.jumbotron {
+  /*background-color: #dff0d8;/* green */
+  /*background-color: #d9edf7;/* blue */
+  /*background-color: #fcf8e3;/* yellow */
+  /*background-color: #f2dede;/* red */
+}
 
+ul.more-space li {
+  margin-bottom: 10px;
+}
 
 
 
