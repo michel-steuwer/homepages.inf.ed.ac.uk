@@ -3,11 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+    Michel Steuwer -- michel.steuwer@ed.ac.uk
 
 # TECHNOLOGY COLOPHON
 
