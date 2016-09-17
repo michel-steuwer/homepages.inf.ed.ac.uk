@@ -15,14 +15,44 @@ ul.more-space li {
   margin-bottom: 10px;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+
+div.navbar {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+
+
+ul.publication li {
+  margin-bottom: 1em;
+}
+
+
+ul.talks li {
+  margin-bottom: 1em;
+}
 
 
 
-
-
-
-
-
+.accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: left;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+.accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
 
 
 
